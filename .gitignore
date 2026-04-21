@@ -30,3 +30,4 @@ Icon?
 *.snm
 *.vrb
 indent.log
+.Rproj.user
