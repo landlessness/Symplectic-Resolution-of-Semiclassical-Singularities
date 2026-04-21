@@ -1,0 +1,32 @@
+## --- macOS Metadata ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+## --- LaTeX Core ---
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latemk
+*.fls
+*.pdf
+*.gz
+
+## --- Bibliography & Indexing ---
+*.bbl
+*.blg
+*.idx
+*.ind
+*.ilg
+*.run.xml
+*.bcf
+
+## --- Overleaf / LaTeXmk Specifics ---
+*.nav
+*.snm
+*.vrb
+indent.log
