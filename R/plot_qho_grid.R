@@ -168,7 +168,7 @@ plot_qho_grid <- function(dt_meta, style = c("manuscript", "readme"),
       geom_ellipse(data = df_cigars, aes(x0=x0, y0=y0, a=aq_a, b=aq_b, angle=0), inherit.aes=FALSE, color="black", linetype="solid", linewidth=0.5) +
       geom_ellipse(data = df_cigars, aes(x0=x0, y0=y0, a=ap_a, b=ap_b, angle=0), inherit.aes=FALSE, color="black", linetype="solid", linewidth=0.5) +
       # Changed inner circle to solid line
-      geom_circle(data = df_circles, aes(x0=x0, y0=y0, r=r_a), inherit.aes=FALSE, color="black", linetype="solid", linewidth=0.3) +
+      # geom_circle(data = df_circles, aes(x0=x0, y0=y0, r=r_a), inherit.aes=FALSE, color="black", linetype="solid", linewidth=0.3) +
       coord_fixed(xlim=c(-plot_lim_x, plot_lim_x), ylim=c(-plot_lim_x, plot_lim_x), expand=FALSE) +
       scale_x_continuous(breaks = custom_breaks, labels = label_format) +
       scale_y_continuous(breaks = custom_breaks, labels = label_format) +

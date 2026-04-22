@@ -30,3 +30,6 @@ Icon?
 *.vrb
 indent.log
 .Rproj.user
+
+## R
+.Rhistory
